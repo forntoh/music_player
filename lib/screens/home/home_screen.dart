@@ -15,9 +15,11 @@ class HomeScreen extends StatelessWidget {
       appBar: CustomAppBar(),
       body: Column(
         children: [
-          AlbumArtDisk(
-            image: Image.network(
-                "https://www.indieisnotagenre.com/wp-content/uploads/glass-animals-dreamland-album-artwork.jpg"),
+          Expanded(
+            child: AlbumArtDisk(
+              image: Image.network(
+                  "https://www.indieisnotagenre.com/wp-content/uploads/glass-animals-dreamland-album-artwork.jpg"),
+            ),
           ),
           Text(
             'Fem',
@@ -45,7 +47,8 @@ class HomeScreen extends StatelessWidget {
                 ClickableIconButton(icon: CupertinoIcons.volume_up, activeColor: Theme.of(context).accentColor,)
               ],
             ),
-          )
+          ),
+          SizedBox(height: 48,),
         ],
       ),
     );

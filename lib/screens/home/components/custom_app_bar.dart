@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:music_player/constants.dart';
 import 'package:music_player/theme/colors.dart';
@@ -39,7 +40,7 @@ class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
                 color: CustomColors.light_blue.withAlpha(70),
                 borderRadius: CustomWidgets.allRounded,
               ),
-              child: Icon(Icons.search),
+              child: Icon(CupertinoIcons.heart),
             ),
           ],
         ),
