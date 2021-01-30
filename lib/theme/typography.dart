@@ -3,19 +3,19 @@ import 'package:google_fonts/google_fonts.dart';
 
 class CustomTypography {
   static TextTheme textTheme = TextTheme(
-      headline1: GoogleFonts.baloo(fontSize: 96, height: balloHeight),
-      headline2: GoogleFonts.baloo(fontSize: 60, height: balloHeight),
-      headline3: GoogleFonts.baloo(fontSize: 48, height: balloHeight),
-      headline4: GoogleFonts.baloo(fontSize: 34, height: balloHeight),
-      headline5: GoogleFonts.baloo(fontSize: 24, height: balloHeight),
-      headline6: GoogleFonts.baloo(fontSize: 20, height: balloHeight),
-      subtitle1: GoogleFonts.baloo(fontSize: 16, height: balloHeight),
-      subtitle2: GoogleFonts.lato(fontSize: 14, fontWeight: FontWeight.bold),
-      bodyText1: GoogleFonts.lato(fontSize: 17),
-      bodyText2: GoogleFonts.lato(fontSize: 15),
-      button: GoogleFonts.baloo(fontSize: 20),
-      caption: GoogleFonts.lato(fontSize: 13),
-      overline: GoogleFonts.lato(fontSize: 10));
+      headline1: GoogleFonts.roboto(fontSize: 96, fontWeight: FontWeight.bold),
+      headline2: GoogleFonts.roboto(fontSize: 60, fontWeight: FontWeight.bold),
+      headline3: GoogleFonts.roboto(fontSize: 48, fontWeight: FontWeight.bold),
+      headline4: GoogleFonts.roboto(fontSize: 34, fontWeight: FontWeight.bold),
+      headline5: GoogleFonts.roboto(fontSize: 24, fontWeight: FontWeight.bold),
+      headline6: GoogleFonts.roboto(fontSize: 20, fontWeight: FontWeight.bold),
+      subtitle1: GoogleFonts.roboto(fontSize: 16, fontWeight: FontWeight.bold),
+      subtitle2: GoogleFonts.roboto(fontSize: 14, fontWeight: FontWeight.bold),
+      bodyText1: GoogleFonts.roboto(fontSize: 17),
+      bodyText2: GoogleFonts.roboto(fontSize: 15),
+      button: GoogleFonts.roboto(fontSize: 20),
+      caption: GoogleFonts.roboto(fontSize: 13),
+      overline: GoogleFonts.roboto(fontSize: 10));
   
   static const double balloHeight = 1;
 }
