@@ -16,6 +16,7 @@ class AlbumArtDisk extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 48, vertical: 24),
       child: Stack(
+        alignment: Alignment.center,
         children: [
           LayoutBuilder(
             builder: (context, constraints) {
