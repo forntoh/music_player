@@ -17,6 +17,7 @@ class CustomTheme {
       floatingActionButtonTheme: CustomWidgets.fabTheme,
       colorScheme: ColorScheme.dark(),
       visualDensity: VisualDensity.adaptivePlatformDensity,
+      sliderTheme: CustomWidgets.sliderTheme,
     );
   }
 }

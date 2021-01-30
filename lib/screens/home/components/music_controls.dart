@@ -12,7 +12,7 @@ class ExtendedControls extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(16.0),
+      padding: const EdgeInsets.symmetric(vertical: 12.0, horizontal: 16),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
