@@ -20,9 +20,9 @@ class AlbumArtDisk extends StatelessWidget {
           LayoutBuilder(
             builder: (context, constraints) {
               return Opacity(
-                opacity: 0.2,
+                opacity: 0.25,
                 child: Transform.translate(
-                  offset: Offset(0, constraints.maxWidth / 2),
+                  offset: Offset(0, constraints.maxWidth / 2.5),
                   child: ClipPath(
                     clipper: DiskClipper(),
                     child: image,
@@ -32,7 +32,7 @@ class AlbumArtDisk extends StatelessWidget {
             },
           ),
           BackdropFilter(
-            filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
+            filter: ImageFilter.blur(sigmaX: 25, sigmaY: 25),
             child: ClipPath(
               clipper: DiskClipper(),
               child: image,
