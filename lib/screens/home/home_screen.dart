@@ -7,6 +7,11 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CustomAppBar(),
+      body: Column(
+        children: [
+
+        ]
+      ,),
     );
   }
 }
