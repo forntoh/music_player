@@ -33,4 +33,5 @@ class CustomWidgets {
       CardTheme(shape: RoundedRectangleBorder(borderRadius: allRounded));
 
   static BorderRadius allRounded = BorderRadius.circular(14.0);
+  static BorderRadius allRoundedSmall = BorderRadius.circular(12.0);
 }

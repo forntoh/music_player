@@ -12,7 +12,7 @@ class CustomTypography {
       headline6: GoogleFonts.roboto(fontSize: 20, fontWeight: FontWeight.bold),
       subtitle1: GoogleFonts.roboto(fontSize: 16, fontWeight: FontWeight.bold),
       subtitle2: GoogleFonts.roboto(fontSize: 14, fontWeight: FontWeight.bold),
-      bodyText1: GoogleFonts.roboto(fontSize: 17),
+      bodyText1: GoogleFonts.roboto(fontSize: 15),
       bodyText2: GoogleFonts.roboto(fontSize: 15, color: CustomColors.light_blue),
       button: GoogleFonts.roboto(fontSize: 20),
       caption: GoogleFonts.roboto(fontSize: 13),
