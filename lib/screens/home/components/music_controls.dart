@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:music_player/theme/colors.dart';
 
 import 'music-control_button.dart';
 import 'progress_indicator.dart';
@@ -41,9 +42,9 @@ class MainControls extends StatelessWidget {
                   SizedBox(height: 8),
                   Row(
                     children: [
-                      Text('01:50', style: Theme.of(context).textTheme.bodyText2),
+                      Text('01:50', style: Theme.of(context).textTheme.overline.apply(color: CustomColors.light_blue)),
                       Spacer(),
-                      Text('03:45', style: Theme.of(context).textTheme.bodyText1),
+                      Text('03:45', style: Theme.of(context).textTheme.overline),
                     ],
                   ),
                 ],

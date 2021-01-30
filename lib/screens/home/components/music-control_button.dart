@@ -19,7 +19,7 @@ class MusicControlButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: onTap,
+      onTap: () {},
       child: isMainIcon
           ? Container(
               width: 40,

@@ -22,11 +22,11 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
           Text(
-            'Fem',
+            'Love on the Brain',
             style: Theme.of(context).textTheme.headline4,
           ),
           Text(
-            'Davido',
+            'Danito & Athina',
             style: Theme.of(context).textTheme.bodyText2,
           ),
           SizedBox(height: 24,),

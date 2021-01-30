@@ -15,7 +15,7 @@ class CustomTypography {
       bodyText1: GoogleFonts.roboto(fontSize: 15),
       bodyText2: GoogleFonts.roboto(fontSize: 15, color: CustomColors.light_blue),
       button: GoogleFonts.roboto(fontSize: 20),
-      caption: GoogleFonts.roboto(fontSize: 13),
+      caption: GoogleFonts.roboto(fontSize: 12),
       overline: GoogleFonts.roboto(fontSize: 10));
   
   static const double balloHeight = 1;
